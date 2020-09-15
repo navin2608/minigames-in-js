@@ -19,14 +19,14 @@
     align-items:center;
 }
 
-.container-2 {
+.container-2,.container-3 {
     padding:  10px;
     border: 4px solid black;
     width: 75%;
     margin: 0 auto;
     text-align: center;
 }
-.flex-box-container-2{
+.flex-box-container-2,.flex-box-rps{
     margin: 0 auto;
     //text-align: center;
     padding: 10px;
@@ -41,5 +41,12 @@
     width:200;
     height:300;
 
+
+}
+
+.flex-box-rps img:hover{
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(184,4,184,1);
+-moz-box-shadow: 10px 10px 5px 0px rgba(184,4,184,1);
+box-shadow: 10px 10px 5px 0px rgba(184,4,184,1);
 
 }

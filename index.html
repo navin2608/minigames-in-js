@@ -43,6 +43,21 @@
 
     </div>
 
+    <div class="container-3">
+        <h2>Challenge 3: Rock, Paper,Scissors</h2>
+        <div class="flex-box-rps" id="flex-box-rps-div">
+            <img id="rock"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR09pOj7dAJD--824RThdCojh1H67dBpIpwZQ&usqp=CAU"
+                height=150 width=150 onclick="rpsGame(this)">
+            <img id="paper"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQvILmTWWfBTjA2QE3R6Wiwgw7RvYuVQmpr8A&usqp=CAU"
+                height=150 width=150 onclick="rpsGame(this)">
+            <img id="scissors"
+                src="data:image/png;base64,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"
+                height=150 width=150 onclick="rpsGame(this)">
+        </div>
+    </div>
+
 
 </body>
 
